@@ -1,3 +1,4 @@
+package DataStructures;
 import java.util.EmptyStackException;
 
 public class StackArray<T>{

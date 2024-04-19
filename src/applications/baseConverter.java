@@ -1,3 +1,5 @@
+package applications;
+
 import java.util.Scanner;
 
 public class baseConverter {

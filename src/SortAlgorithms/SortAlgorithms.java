@@ -1,3 +1,5 @@
+package SortAlgorithms;
+
 public class SortAlgorithms {
     public void bubbleSort(int []arr) {
         int i, j, temp, count=0;

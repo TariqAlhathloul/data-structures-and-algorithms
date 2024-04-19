@@ -1,3 +1,5 @@
+package applications;
+
 public class Example {
     /*
     * Mark Allen Weiss Data structures and algorithm analysis in Java

@@ -1,5 +1,6 @@
 // A binary tree is a tree data structure in which each node can have at most two children,
 // which are referred to as the left child and the right child.
+package DataStructures;
 class Node{
     int data;
     Node left, right;

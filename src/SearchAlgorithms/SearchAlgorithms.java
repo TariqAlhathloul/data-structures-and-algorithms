@@ -1,3 +1,4 @@
+package SearchAlgorithms;
 public class SearchAlgorithms {
 
     public int binarySearch(int[] arr, int x) {
