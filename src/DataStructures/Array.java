@@ -10,7 +10,7 @@ public class Array {
     }
 
     public void insert(int item) {
-        // If the array is full, resize it.
+        // If the array is full, resize it by doubling the size, and save the previous array.
         if (count == items.length) {
             int[] newItems = new int[count * 2];
             System.arraycopy(items, 0, newItems, 0, count);

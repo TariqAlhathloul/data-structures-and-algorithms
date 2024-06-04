@@ -3,20 +3,19 @@ package SortAlgorithms;
 public class InsertionSort {
 
     void insertionSort(int[] array) {
-        if(array == null || array.length <= 1) {
+        if(array == null || array.length <= 1)
             return;
-        }
 
         int length = array.length;
-        for(int i = 1; i < length; ++i) {
-            int currentElement = array[i];
-            int j = i-1;
 
-            while(j >= 0 && array[j] > currentElement) {
-                array[j + 1] = array[j];
-                j = j - 1;
+        for(int i = 1; i < length; i++) {
+            int curElement = array[i];
+            int j = i - 1;
+            while(j >= 0 && array[j] > curElement) {
+                array[j+1] = array[j];// 2
+                j--; // 4
             }
-            array[j + 1] = currentElement;
+            array[j + 1] = curElement; // 2
         }
     }
 
@@ -27,7 +26,7 @@ public class InsertionSort {
     }
 
     public static void main(String[] args) {
-        int[] array = {1,2,3,4,5};
+        int[] array = {4,2,5,1,-3};
         InsertionSort sort = new InsertionSort();
 
         System.out.println("before sorting: ");
@@ -36,7 +35,5 @@ public class InsertionSort {
         sort.insertionSort(array);
         System.out.println("after sorting: ");
         sort.print(array);
-
-
     }
 }

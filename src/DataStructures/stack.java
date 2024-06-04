@@ -9,16 +9,16 @@ public class stack {
         stack.push(6);
         stack.push(4);
         stack.push(9);
-        System.out.println(stack);
+        System.out.println("stack = " + stack);
         //stack.pop();
-        System.out.println(stack.size());
+        System.out.println("stack size = " + stack.size());
         int a = 0;
 
         for(int i=0; i < stack.size(); i++) {
             a += stack.get(i);
         }
 
-        System.out.println(a);
+        System.out.println("the sum of all elements in the stack = " + a);
     }
 
 }

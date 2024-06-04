@@ -1,4 +1,9 @@
 package SearchAlgorithms;
+
+/*
+* Algorithms as a technology refer to the systematic procedures or sets of rules,
+* used to solve a particular problem or perform a task.
+* */
 public class SearchAlgorithms {
 
     public int binarySearch(int[] arr, int x) {
